@@ -1,0 +1,15 @@
+[[rule]]
+effect="deny"
+kind="filesystem"
+pattern="**/.ssh/**"
+reason="credential boundary"
+
+[[rule]]
+effect="allow"
+kind="filesystem"
+pattern="workspace/**"
+
+[[rule]]
+effect="allow"
+kind="network"
+pattern="api.github.com"

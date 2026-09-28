@@ -1,0 +1,18 @@
+[
+  {
+    "kind": "filesystem",
+    "target": "workspace/src/app.py"
+  },
+  {
+    "kind": "filesystem",
+    "target": "home/.ssh/id_ed25519"
+  },
+  {
+    "kind": "network",
+    "target": "api.github.com"
+  },
+  {
+    "kind": "process",
+    "target": "bash"
+  }
+]
