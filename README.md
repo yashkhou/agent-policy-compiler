@@ -34,3 +34,12 @@ python -m unittest discover -s tests -v
 ```
 
 MIT licensed.
+
+
+## v0.1.1
+
+**Priority-aware policy explanations and linting.** Rules now support explicit priorities, decision traces, batch evaluation, and lint findings for duplicates or catch-all shadowing while default-deny remains intact.
+
+```bash
+PYTHONPATH=src python -m unittest discover -s tests -v
+```
