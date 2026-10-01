@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **This project now lives in [agent-reliability-lab](https://github.com/yashkhou/agent-reliability-lab/tree/main/packages/agent-policy-compiler).** Its full history was moved there and this repository is archived.
+>
+> `pip install "git+https://github.com/yashkhou/agent-reliability-lab#subdirectory=packages/agent-policy-compiler"`
+
+
 # agent-policy-compiler
 
 Compile human-readable capability policies into deterministic guards for filesystem, network and process actions.
